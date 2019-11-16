@@ -3,7 +3,6 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 
 ### Dataset
 
-wooooooohoooooooo
 ### Methods
  We will leverage three machine learning methods, one supervised and two unsupervised methods. More specifically, we plan to apply logistic regression, k-means clustering and Principle Component Analysis (PCA) on our dataset. We shall use logistic regression to determine which dependent features have more effect on voter turnout.
 
@@ -17,9 +16,9 @@ We used the state election policy dataset to perform K-means clustering.
 
 We used the elbow method to determine the ideal number of clusters:
 
-![Elbow Method](https://github.com/NedaTavakoli/Voter-Turout-Prediction.github.io-/blob/master/plots/Kmeans/output_6_0.png)
+![Elbow Method](plots/Kmeans/output_6_0.png)
 
-**Insert clustering image here
+![Elbow Method](plots/Kmeans/newplot.png)
 
 Silhouette Score of k-means clustering = 0.538
 
