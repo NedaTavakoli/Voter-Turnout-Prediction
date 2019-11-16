@@ -3,6 +3,16 @@
 Last fall, 2018, the State of Georgia experienced a divisive gubernatorial election between Stacey Abrams and Brian Kemp fraught with explicit and systematic voter suppression [[1]](https://www.nytimes.com/2019/03/06/us/politics/governor-brian-kemp-voter-suppression.html?partner=IFTTT). The tactics employed by Brian Kemp and republican operatives included exact-match purging of voters from rolls and premature closure of polling locations. These tactics saw $85,000$ voters removed from the rolls in the three months leading up to the election and $667,000$ removed during 2017 [[]](). All told, more than 10% of eligible, primarily black, voters were removed from the rolls [[]](). The systematic and widespread suppression netted Brian Kemp a victory while inspiring the Fair Fight movement. In the spirit of Fair Fight, this project endeavors to predict voter turnout using machine learning techniques based on district-level infrastructure data.
 
 ### Dataset
+![2018 Turnout for Most USA Counties](plots/Choropleth/counties.png)
+
+Description to be added
+  
+![2018 State Turnout](plots/Choropleth/usa.png) 
+
+![2018 Georgia Turnout](plots/Choropleth/GA.png){:height="500px" width="500px"}
+
+
+
 
 ### Unsupervised Learning
 
@@ -35,6 +45,9 @@ We used the county election infrastructure dataset to perform linear and lasso r
 LR training score: 0.014746881224901422
 LR testing score: 0.000984805211150186
 
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
+![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="500px" width="500px"}
+
 **Insert visualization for lasso regression **Insert score for lasso regression
 
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
@@ -48,6 +61,10 @@ number of features used: for alpha =0.001: 5
 training score for alpha=0.0001: 0.014741296015963301
 number of features used: for alpha =0.0001: 5
 LR training score: 0.014746881224901422
+
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
+![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="500px" width="500px"}
+
 
 ### Related Work
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
