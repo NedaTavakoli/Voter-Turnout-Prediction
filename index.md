@@ -36,8 +36,12 @@ Further, to determine which policies have the most impact on voter turnout, we p
 ### Supervised Learning
 
 We used the county election infrastructure dataset to perform linear and lasso regression to predict voter turnout.
+Lasso regression is used to reduce model complexity and prevent over-fitting which may result from simple linear regression.
 
-**Insert visualization for linear regression **Insert score for linear regression
+So lasoo regression puts constraint on the coefficients (w). A penalty term (lambda) regularizes the coefficients such that if the coefficients take large values the optimization function is penalized. So, lasso regression shrinks the coefficients and it helps to reduce the model complexity and multi-collinearity. In addition, Lasso uses regularization (L1) that can lead to zero coefficients i.e. some of the features are completely neglected for the evaluation of output. So Lasso regression not only helps in reducing over-fitting but it can help us in feature selection.
+
+The following plots show linear regression results:
+
 ![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
 ![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
 
