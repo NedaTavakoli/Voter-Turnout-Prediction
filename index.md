@@ -1,4 +1,12 @@
-### Predicting Voter Turnout
+### Voter Turnout and Voter Suppression
+
+Voter turnout refers to the percentage of the voting population that actually voted in an election. A low rate of voter turnout may yield election results that are not representative of the will of the actual populace of the region, thereby diminishing the legitimacy of the democratic process. It is important therefore to vote for policies and infrastructure changes that make the voting process easier.
+
+Voter suppression is an election strategy that aims at reducing voter turnout from specific voter groups to influence election results. The tactics include making the registration and/or voting process more difficult either by policy or infrastructure changes that affect certain demographics more than others. Without the right data regarding the impact of policy changes on voter turnout, it can be difficult to detect and prevent voter suppression.
+
+Our project uses both supervised and unsupervised learning methods to (a) predict voter turnout based on election policy and infrastructure, and (b) determine the most important features that impact voter turnout.
+
+### Voter Suppression Case Study: Fair Fight Georgia
 
 Last fall, 2018, the State of Georgia experienced a divisive gubernatorial election between Stacey Abrams and Brian Kemp fraught with explicit and systematic voter suppression [[1]](https://www.nytimes.com/2019/03/06/us/politics/governor-brian-kemp-voter-suppression.html?partner=IFTTT). The tactics employed by Brian Kemp and republican operatives included exact-match purging of voters from rolls and premature closure of polling locations. These tactics saw 85,000 voters removed from the rolls in the three months leading up to the election and 667,000 removed during 2017 [2]. All told, more than 10% of eligible, primarily black, voters were removed from the rolls [2]. The systematic and widespread suppression netted Brian Kemp a victory while inspiring the Fair Fight movement. In the spirit of Fair Fight, this project endeavors to predict voter turnout using machine learning techniques based on district-level infrastructure data.
 
