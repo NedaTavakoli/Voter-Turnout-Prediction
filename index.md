@@ -17,7 +17,7 @@ We used the state election policy dataset to perform K-means clustering.
 
 We used the elbow method to determine the ideal number of clusters:
 
-**insert elbow chart here
+![Elbow Method](https://github.com/NedaTavakoli/Voter-Turout-Prediction.github.io-/blob/master/plots/Kmeans/output_6_0.png)
 
 **Insert clustering image here
 
