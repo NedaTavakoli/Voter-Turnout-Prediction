@@ -18,13 +18,13 @@ We used the elbow method to determine the ideal number of clusters:
 
 ![Elbow Method](plots/Kmeans/output_6_0.png)
 
-![Elbow Method](plots/Kmeans/newplot.png)
+![K-means](plots/Kmeans/newplot.png)
 
 Silhouette Score of k-means clustering = 0.538
 
 Further, to determine which policies have the most impact on voter turnout, we performed Feature Extraction using the SelectKBest method which outputs the K features with the highest scores.
 
-**Insert pie chart here
+![Feature Extraction](plots/Kmeans/output_10_0.png)
 
 ### Supervised Learning
 
