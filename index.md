@@ -10,17 +10,19 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 
 ### Unsupervised Learning
 
-Unsupervised Learning
+#### K-means
 
-We used the state election policy dataset to perform K-means clustering.
-
-We used the elbow method to determine the ideal number of clusters:
+We performed K-means clustering on the state election policy dataset and employed the elbow method to determine the ideal number of clusters:
 
 ![Elbow Method](plots/Kmeans/output_6_0.png)
 
+Ideal number of clusters = 3.
+
 ![K-means](plots/Kmeans/newplot.png)
 
-Silhouette Score of k-means clustering = 0.538
+Silhouette Score (higher is better) = 0.538
+
+#### Feature Extraction
 
 Further, to determine which policies have the most impact on voter turnout, we performed Feature Extraction using the SelectKBest method which outputs the K features with the highest scores.
 
