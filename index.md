@@ -9,10 +9,9 @@ Description to be added
   
 ![2018 State Turnout](plots/Choropleth/usa.png){:width="90%"}
 
-![2018 Turnout](plots/Choropleth/GA.png){:height="50%" width="50%"}
+![2018 Turnout](plots/Choropleth/GA.png){:height="53%" width="53%"}
 
-
-![2018 Turnout](plots/Choropleth/AZ.png){:height="55%" width="55%"}
+![2018 Turnout](plots/Choropleth/AZ.png){:height="52%" width="52%"}
 
 ### Unsupervised Learning
 
