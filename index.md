@@ -3,8 +3,6 @@
 Last fall, 2018, the State of Georgia experienced a divisive gubernatorial election between Stacey Abrams and Brian Kemp fraught with explicit and systematic voter suppression [[1]](https://www.nytimes.com/2019/03/06/us/politics/governor-brian-kemp-voter-suppression.html?partner=IFTTT). The tactics employed by Brian Kemp and republican operatives included exact-match purging of voters from rolls and premature closure of polling locations. These tactics saw 85,000 voters removed from the rolls in the three months leading up to the election and 667,000 removed during 2017 [2]. All told, more than 10% of eligible, primarily black, voters were removed from the rolls [2]. The systematic and widespread suppression netted Brian Kemp a victory while inspiring the Fair Fight movement. In the spirit of Fair Fight, this project endeavors to predict voter turnout using machine learning techniques based on district-level infrastructure data.
 
 ### Dataset
-<!---
-![2018 Turnout for Most USA Counties](plots/Choropleth/counties.png)-->
 
 We built a per-state election policy dataset using policy information obtained from [NCSL](http://www.ncsl.org/). In particular, we included the following features:
 
@@ -23,7 +21,7 @@ We built a per-state election policy dataset using policy information obtained f
 
 Labels: State Voter Turnout Percentage 2018
 
-![2018 State Turnout](plots/Choropleth/usa.png) 
+![2018 State Turnout](plots/Choropleth/StateVoterTurnout.PNG) 
 
 We further built a per-county election infrastructure dataset which included the following features:
 
