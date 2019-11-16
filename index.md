@@ -6,15 +6,38 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 <!---
 ![2018 Turnout for Most USA Counties](plots/Choropleth/counties.png)-->
 
-Description to be added
-  
+We built a per-state election policy dataset using policy information obtained from [NCSL](http://www.ncsl.org/). In particular, we included the following features:
+
+1. No excuse early voting
+2. All mail voting
+3. Poll Station Closing Time 
+4. Automatic restoration of voting rights upon release from prison
+5. Same day registration
+6. Civics Course Requirement
+7. Online Registration
+8. Vote centers 
+9. No excuse absentee voting
+10. Automatic Voter Registration
+11. Pre-registration for young voters
+12. Voter ID required
+
+Labels: State Voter Turnout Percentage 2018
+
 ![2018 State Turnout](plots/Choropleth/usa.png) 
+
+We further built a per-county election infrastructure dataset which included the following features:
+
+1. No Voters per Polling Location
+2. No Religious Congregations
+3. Area per Polling Location
+4. Percent Broadband Coverage
+5. Purge Rate
+
+Labels: County Voter Turnout Percentage 2018
 
 <img src="plots/Choropleth/GA.png" alt="GA" width="400"/>
 
 <!---![2018 Georgia Turnout](plots/Choropleth/GA.png)-->
-
-
 
 ### Unsupervised Learning
 
