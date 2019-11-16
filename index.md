@@ -23,7 +23,7 @@ We performed K-means clustering on the state election policy dataset and employe
 
 Ideal number of clusters = 3.
 
-![K-means](plots/Kmeans/newplot.png){height="500px" width="400px"}
+![K-means](plots/Kmeans/newplot.png){:height="500px" width="400px"}
 
 Silhouette Score (higher is better) = 0.538
 
@@ -76,7 +76,7 @@ Feature Extraction for county level dataset reveals
 ![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)
 
 Correlation between voter turnout and the different features in the dataset indicates:
-![LR](plots/Linear_Lasso_Ridge/Correlation.PNG){height="500px" width="400px"}
+![LR](plots/Linear_Lasso_Ridge/Correlation.PNG){:height="500px" width="400px"}
 
 We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negetively correlated with voter turnout per our trained model.
 
