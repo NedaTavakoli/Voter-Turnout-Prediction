@@ -29,7 +29,7 @@ We built a per-state election policy dataset using policy information obtained f
 
 Labels: State Voter Turnout Percentage 2018
 
-![2018 State Turnout](plots/Choropleth/StateVoterTurnout.PNG) 
+![2018 State Turnout](plots/Choropleth/StateVoterTurnout.png) 
 
 We further built a per-county election infrastructure dataset which included the following features:
 
