@@ -60,6 +60,7 @@ The following plots show lasso regression results:
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
 ![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
+
   |     Alpha     | Training score| Test score    | # Features used|
   | ------------- |:-------------:|:-------------:| :-------------:| 
   |     $0.1      |    $0.01419   |  $-0.000626   |        $5      |
