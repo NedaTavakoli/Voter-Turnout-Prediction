@@ -7,9 +7,9 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 
 Description to be added
   
-![2018 State Turnout](plots/Choropleth/usa.png | width = 800) 
+![2018 State Turnout](plots/Choropleth/usa.png){:width="90%"}
 
-![2018 Georgia Turnout](plots/Choropleth/GA.png = 500x400)
+![2018 Georgia Turnout](plots/Choropleth/GA.png){:height="60%" width="60%"}
 
 
 
