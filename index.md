@@ -62,27 +62,10 @@ The following plots show lasso regression results:
 
   |     Alpha     | Training score| Test score    | # Features used|
   | ------------- |:-------------:|:-------------:| :-------------:| 
-  | col 3 is      | right-aligned |  right-aligned| right-aligned  |
-  | col 2 is      | centered      |  right-aligned| right-aligned  |
-  | zebra stripes | are neat      | right-aligned | right-aligned  |
+  |     $0.1      |    $0.01419   |  $-0.000626   |        $5      |
+  |    $0.001     |    $0.01419   |  right-aligned|        $4      |
+  |    $0.0001    |     $0.01474  | right-aligned |        $4      |
 
-
-|  Training score  |      0.01419       |
-|------------------|--------------------|
-|   Test score     |     -0.000626      | 
-|------------------|--------------------|
-| # Features used  |         5          |
-|------------------|--------------------|
-| Training score   |                    |
-|   alpha=0.001    |       0.01419      |
-|------------------|--------------------|
-| # Features used  |         4          |
-|------------------|--------------------|
-| Training score   |                    |
-|   alpha=0.0001   |       0.01474      |  
-|------------------|--------------------|
-| # Features used  |         4          |
-|------------------|--------------------|
 
 
 ![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
