@@ -45,8 +45,8 @@ So lasoo regression puts constraint on the coefficients (w). A penalty term (lam
 
 The following plots show linear regression results:
 
-<!---![LR](plots/Linear_Lasso_Ridge/output_11_1.png)-->
-![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
+<!---![LR](plots/Linear_Lasso_Ridge/output_11_2.png)-->
+![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
 
 |LR training score | LR testing score:  |
 |------------------|--------------------|
