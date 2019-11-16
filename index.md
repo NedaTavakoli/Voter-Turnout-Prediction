@@ -3,11 +3,6 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 
 ### Dataset
 
-### Methods
- We will leverage three machine learning methods, one supervised and two unsupervised methods. More specifically, we plan to apply logistic regression, k-means clustering and Principle Component Analysis (PCA) on our dataset. We shall use logistic regression to determine which dependent features have more effect on voter turnout.
-
-### Results and discussions
-
 ### Unsupervised Learning
 
 #### K-means
