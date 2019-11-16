@@ -10,7 +10,9 @@ Description to be added
 ![2018 State Turnout](plots/Choropleth/usa.png){:width="90%"}
 
 ![2018 Turnout](plots/Choropleth/GA.png){:height="50%" width="50%"}
-![2018 Turnout](plots/Choropleth/AZ.png){:height="50%" width="50%"}
+
+
+![2018 Turnout](plots/Choropleth/AZ.png){:height="60%" width="60%"}
 
 ### Unsupervised Learning
 
@@ -60,7 +62,7 @@ training score for alpha=0.0001: 0.014741296015963301
 number of features used: for alpha =0.0001: 5
 LR training score: 0.014746881224901422
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="80%" width="80%"}
+![Lasso](plots/Linear_Lasso_Ridge/test_actual.png){:height="80%" width="80%"}
 ![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="80%" width="80%"}
 
 
