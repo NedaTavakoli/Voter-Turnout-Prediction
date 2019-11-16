@@ -47,33 +47,36 @@ The following plots show linear regression results:
 
 |LR training score | LR testing score:  |
 |------------------|--------------------|
-|   0.01477        |             0.00256| 
+|      0.01477     |      0.00256       | 
 
-LR training score: 0.01477
-LR testing score: 0.00256
-
-| This | is   |
-|------|------|
-|   a  | table| 
 
 ![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
 ![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="500px" width="500px"}
 
 
 
-**Insert visualization for lasso regression **Insert score for lasso regression
+The following plots show lasso regression results:
 
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
 ![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
-training score: 0.01419
-test score:  -0.000626
-number of features used:  5
-training score for alpha=0.001: 0.01419
-number of features used: for alpha =0.001: 5
-training score for alpha=0.0001: 0.01474
-number of features used: for alpha =0.0001: 5
-LR training score: 0.01474
+|  Training score  |      0.01419       |
+|------------------|--------------------|
+|     Test score   |     -0.000626      | 
+|------------------|--------------------|
+| #of features used|         5          |
+|------------------|--------------------|
+| Training score   |                    |
+|   alpha=0.001    |       0.01419      |
+|------------------|--------------------|
+| #of features used|         4          |
+|------------------|--------------------|
+| Training score   |                    |
+|   alpha=0.0001   |       0.01474      |  
+|------------------|--------------------|
+| #of features used|         4          |
+|------------------|--------------------|
+
 
 ![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
 ![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="500px" width="500px"}
