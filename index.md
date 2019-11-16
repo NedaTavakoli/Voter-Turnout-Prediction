@@ -45,7 +45,7 @@ So lasso regression puts constraint on the coefficients (w). A penalty term (lam
 
 #### LINEAR REGRESSION
 
-![Linear](plots/Linear_Lasso_Ridge/LinearRegression.png)
+![Linear](plots/Linear_Lasso_Ridge/LinearRegression.PNG)
 
 | Training score | Test score:  |
 |----------------|--------------|
@@ -59,7 +59,7 @@ So lasso regression puts constraint on the coefficients (w). A penalty term (lam
 #### LASSO REGRESSION
 The following plots show lasso regression results:
 
-![Lasso](plots/Linear_Lasso_Ridge/LassoRegression.png)
+![Lasso](plots/Linear_Lasso_Ridge/LassoRegression.PNG)
 
 
   |     Alpha     | Training score|  Test score    |# Features used|
