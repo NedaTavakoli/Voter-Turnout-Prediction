@@ -9,8 +9,7 @@ Description to be added
   
 ![2018 State Turnout](plots/Choropleth/usa.png) 
 
-![2018 Georgia Turnout](plots/Choropleth/GA.png){:height="500px" width="500px"}
-
+![2018 Georgia Turnout](plots/Choropleth/GA.png){height="500px" width="400px"}
 
 
 
