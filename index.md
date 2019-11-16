@@ -23,7 +23,7 @@ We performed K-means clustering on the state election policy dataset and employe
 
 Ideal number of clusters = 3.
 
-![K-means](plots/Kmeans/newplot.png)
+![K-means](plots/Kmeans/newplot.png){height="500px" width="400px"}
 
 Silhouette Score (higher is better) = 0.538
 
@@ -50,8 +50,8 @@ The following plots show linear regression results:
 |      0.01477     |      0.00256       | 
 
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
-![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="500px" width="500px"}
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){{height="500px" width="400px"}
+![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){height="500px" width="400px"}
 
 
 
@@ -69,8 +69,8 @@ The following plots show lasso regression results:
 
 
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
-![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="500px" width="500px"}
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="500px" width="400px"}
+![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="500px" width="400px"}
 
 Feature Extraction for county level dataset reveals 
 ![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)
