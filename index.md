@@ -32,12 +32,22 @@ We used the county election infrastructure dataset to perform linear and lasso r
 ![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
 ![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
 
+LR training score: 0.014746881224901422
+LR testing score: 0.000984805211150186
 
 **Insert visualization for lasso regression **Insert score for lasso regression
 
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
 ![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
+training score: 0.01418841818201566
+test score:  -0.0006256370906636555
+number of features used:  5
+training score for alpha=0.001: 0.01418841818201566
+number of features used: for alpha =0.001: 5
+training score for alpha=0.0001: 0.014741296015963301
+number of features used: for alpha =0.0001: 5
+LR training score: 0.014746881224901422
 
 ### Related Work
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
