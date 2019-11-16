@@ -104,6 +104,7 @@ Predicted vs Actual Voter Turnout:
 #### Feature Extraction
 
 We further used SelectKBest to determine the impact of each of the infrastructure features on voter turnout rate:
+
 ![LR](plots/Linear_Lasso_Ridge/InfrastructureImpact.PNG)
 
 <!---Correlation between voter turnout and the different features:
