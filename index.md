@@ -23,7 +23,7 @@ We performed K-means clustering on the state election policy dataset and employe
 
 Ideal number of clusters = 3.
 
-![K-means](plots/Kmeans/newplot.png){:height="500px" width="400px"}
+![K-means](plots/Kmeans/newplot.png)
 
 Silhouette Score (higher is better) = 0.538
 
