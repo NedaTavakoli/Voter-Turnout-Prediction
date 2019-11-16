@@ -78,12 +78,15 @@ Predicted vs Actual Voter Turnout:
 
 ![Lasso](plots/Linear_Lasso_Ridge/LassoRegression.PNG)
 
-#### Feature Correlation
+#### Feature Extraction
 
-Correlation between voter turnout and the different features:
-![LR](plots/Linear_Lasso_Ridge/Correlation.PNG)
+We further used SelectKBest to determine the impact of each of the infrastructure features on voter turnout rate:
+![LR](plots/Linear_Lasso_Ridge/InfrastructureImpact.PNG)
 
-We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negatively correlated with voter turnout per our trained model.
+<!---Correlation between voter turnout and the different features:
+![LR](plots/Linear_Lasso_Ridge/Correlation.PNG)-->
+
+<!---We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negatively correlated with voter turnout per our trained model.-->
 
 ### Related Work and Conclusion
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [3]. Challenor predicted voter turnout using labor force demographics in [4]. Unlike past work that focuses on immutable population characteristics such as demographic information, we predict voter turnout based on statE election policy as well as local election infrastructure, including but not limited to distance from polling stations, as examined by [5].
