@@ -45,6 +45,10 @@ The following plots show linear regression results:
 ![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
 ![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
 
+|LR training score | LR testing score:  |
+|------------------|--------------------|
+|   0.01477        |             0.00256| 
+
 LR training score: 0.01477
 LR testing score: 0.00256
 
