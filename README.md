@@ -1,4 +1,4 @@
-# CS7641-ML-Project
+# Voter Turnout Prediction
 
 **Datasets**
 
