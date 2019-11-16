@@ -11,8 +11,29 @@ wooooooohoooooooo
 
 ### Unsupervised Learning
 
+Unsupervised Learning
+
+We used the state election policy dataset to perform K-means clustering.
+
+We used the elbow method to determine the ideal number of clusters:
+
+**insert elbow chart here
+
+**Insert clustering image here
+
+Silhouette Score of k-means clustering = 0.538
+
+Further, to determine which policies have the most impact on voter turnout, we performed Feature Extraction using the SelectKBest method which outputs the K features with the highest scores.
+
+**Insert pie chart here
+
 ### Supervised Learning
 
+We used the county election infrastructure dataset to perform linear and lasso regression to predict voter turnout.
+
+**Insert visualization for linear regression **Insert score for linear regression
+
+**Insert visualization for lasso regression **Insert score for lasso regression
 
 ### Related works
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
