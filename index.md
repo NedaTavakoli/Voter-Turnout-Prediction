@@ -60,6 +60,13 @@ The following plots show lasso regression results:
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
 ![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
+  |     Alpha     | Training score| Test score    | # Features used|
+  | ------------- |:-------------:|:-------------:| :-------------:| 
+  | col 3 is      | right-aligned |  right-aligned| right-aligned  |
+  | col 2 is      | centered      |  right-aligned| right-aligned  |
+  | zebra stripes | are neat      | right-aligned | right-aligned  |
+
+
 |  Training score  |      0.01419       |
 |------------------|--------------------|
 |   Test score     |     -0.000626      | 
