@@ -7,11 +7,11 @@ Last fall, 2018, the State of Georgia experienced a divisive gubernatorial elect
 
 Description to be added
   
-![2018 State Turnout](plots/Choropleth/usa.png){:width="90%"}
+![2018 State Turnout](plots/Choropleth/usa.png) 
 
-![2018 Turnout](plots/Choropleth/GA.png){:height="53%" width="53%"}
+![2018 Georgia Turnout](plots/Choropleth/GA.png){height="500px" width="400px"}
 
-![2018 Turnout](plots/Choropleth/AZ.png){:height="52%" width="52%"}
+
 
 ### Unsupervised Learning
 
@@ -41,29 +41,38 @@ We used the county election infrastructure dataset to perform linear and lasso r
 ![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
 ![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
 
-LR training score: 0.014746881224901422
-LR testing score: 0.000984805211150186
+LR training score: 0.01477
+LR testing score: 0.00256
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="80%" width="80%"}
-![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="80%" width="80%"}
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
+![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="500px" width="500px"}
+
+
 
 **Insert visualization for lasso regression **Insert score for lasso regression
 
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
 ![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
-training score: 0.01418841818201566
-test score:  -0.0006256370906636555
+training score: 0.01419
+test score:  -0.000626
 number of features used:  5
-training score for alpha=0.001: 0.01418841818201566
+training score for alpha=0.001: 0.01419
 number of features used: for alpha =0.001: 5
-training score for alpha=0.0001: 0.014741296015963301
+training score for alpha=0.0001: 0.01474
 number of features used: for alpha =0.0001: 5
-LR training score: 0.014746881224901422
+LR training score: 0.01474
 
-![Lasso](plots/Linear_Lasso_Ridge/test_actual.png){:height="80%" width="80%"}
-![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="80%" width="80%"}
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
+![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){:height="500px" width="500px"}
 
+Feature Extraction for county level dataset reveals 
+![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)
+
+Correlation between voter turnout and the different features in the dataset indicates:
+![LR](plots/Linear_Lasso_Ridge/Correlation.PNG)
+
+We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negetively correlated with voter turnout per our trained model.
 
 ### Related Work
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
