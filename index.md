@@ -12,7 +12,7 @@ Description to be added
 ![2018 Turnout](plots/Choropleth/GA.png){:height="50%" width="50%"}
 
 
-![2018 Turnout](plots/Choropleth/AZ.png){:height="60%" width="60%"}
+![2018 Turnout](plots/Choropleth/AZ.png){:height="55%" width="55%"}
 
 ### Unsupervised Learning
 
