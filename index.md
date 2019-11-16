@@ -69,14 +69,14 @@ The following plots show lasso regression results:
 
 
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="500px" width="400px"}
-![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="500px" width="400px"}
+![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="600px" width="600px"}
+![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="600px" width="600px"}
 
 Feature Extraction for county level dataset reveals 
 ![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)
 
 Correlation between voter turnout and the different features in the dataset indicates:
-![LR](plots/Linear_Lasso_Ridge/Correlation.PNG){:height="500px" width="400px"}
+![LR](plots/Linear_Lasso_Ridge/Correlation.PNG){:height="600px" width="600px"}
 
 We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negetively correlated with voter turnout per our trained model.
 
