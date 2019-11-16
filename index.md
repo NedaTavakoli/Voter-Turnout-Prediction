@@ -62,18 +62,19 @@ The following plots show lasso regression results:
 
 |  Training score  |      0.01419       |
 |------------------|--------------------|
-|     Test score   |     -0.000626      | 
-| #of features used|         5          |
+|   Test score     |     -0.000626      | 
+|------------------|--------------------|
+| # Features used  |         5          |
 |------------------|--------------------|
 | Training score   |                    |
 |   alpha=0.001    |       0.01419      |
 |------------------|--------------------|
-| #of features used|         4          |
+| # Features used  |         4          |
 |------------------|--------------------|
 | Training score   |                    |
 |   alpha=0.0001   |       0.01474      |  
 |------------------|--------------------|
-| #of features used|         4          |
+| # Features used  |         4          |
 |------------------|--------------------|
 
 
