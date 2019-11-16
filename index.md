@@ -52,6 +52,10 @@ The following plots show linear regression results:
 LR training score: 0.01477
 LR testing score: 0.00256
 
+| This | is   |
+|------|------|
+|   a  | table| 
+
 ![LR](plots/Linear_Lasso_Ridge/test_actual.png){:height="500px" width="500px"}
 ![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){:height="500px" width="500px"}
 
