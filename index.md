@@ -41,36 +41,32 @@ Further, to determine which policies have the most impact on voter turnout, we p
 We used the county election infrastructure dataset to perform linear and lasso regression to predict voter turnout.
 Lasso regression is used to reduce model complexity and prevent over-fitting which may result from simple linear regression.
 
-So lasoo regression puts constraint on the coefficients (w). A penalty term (lambda) regularizes the coefficients such that if the coefficients take large values the optimization function is penalized. So, lasso regression shrinks the coefficients and it helps to reduce the model complexity and multi-collinearity. In addition, Lasso uses regularization (L1) that can lead to zero coefficients i.e. some of the features are completely neglected for the evaluation of output. So Lasso regression not only helps in reducing over-fitting but it can help us in feature selection.
+So lasso regression puts constraint on the coefficients (w). A penalty term (lambda) regularizes the coefficients such that if the coefficients take large values the optimization function is penalized. So, lasso regression shrinks the coefficients and it helps to reduce the model complexity and multi-collinearity. In addition, Lasso uses regularization (L1) that can lead to zero coefficients i.e. some of the features are completely neglected for the evaluation of output. So Lasso regression not only helps in reducing over-fitting but it can help us in feature selection.
 
-The following plots show linear regression results:
+#### LINEAR REGRESSION
 
-<!---![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
-![LR](plots/Linear_Lasso_Ridge/output_11_1.png)-->
+![Linear](plots/Linear_Lasso_Ridge/LinearRegression.png)
 
-|LR training score | LR testing score:  |
-|------------------|--------------------|
-|      0.01477     |      0.00256       | 
+| Training score | Test score:  |
+|----------------|--------------|
+|    0.01477     |   0.00256    | 
 
 
 <!---![LR](plots/Linear_Lasso_Ridge/test_actual.png){{height="500px" width="400px"}
 ![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){height="500px" width="400px"}-->
 
 
-
+#### LASSO REGRESSION
 The following plots show lasso regression results:
 
-![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
-![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
+![Lasso](plots/Linear_Lasso_Ridge/LassoRegression.png)
 
 
   |     Alpha     | Training score|  Test score    |# Features used|
   |:-------------:|:-------------:|:--------------:|:-------------:| 
-  |     0.1       |    0.01419    |  -0.000626     |        5      |
-  |    0.001      |    0.01419    |   |        4      |
-  |    0.0001     |    0.01474    |    |        4      |
-
-
+  |     0.001     |   0.0138      |    0.01047     |        5      |
+  |    0.0001     |   0.0138      |    0.01047     |        5      |
+  |    0.00001    |   0.0144      |    0.01185     |        5      |
 
 <!---![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="500px" width="400px"}
 ![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="500px" width="400px"}-->
