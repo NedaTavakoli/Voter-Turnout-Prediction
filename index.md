@@ -3,21 +3,24 @@
 Last fall, 2018, the State of Georgia experienced a divisive gubernatorial election between Stacey Abrams and Brian Kemp fraught with explicit and systematic voter suppression [[1]](https://www.nytimes.com/2019/03/06/us/politics/governor-brian-kemp-voter-suppression.html?partner=IFTTT). The tactics employed by Brian Kemp and republican operatives included exact-match purging of voters from rolls and premature closure of polling locations. These tactics saw $85,000$ voters removed from the rolls in the three months leading up to the election and $667,000$ removed during 2017 [[]](). All told, more than 10% of eligible, primarily black, voters were removed from the rolls [[]](). The systematic and widespread suppression netted Brian Kemp a victory while inspiring the Fair Fight movement. In the spirit of Fair Fight, this project endeavors to predict voter turnout using machine learning techniques based on district-level infrastructure data.
 
 ### Dataset
-![2018 Turnout for Most USA Counties](plots/Choropleth/counties.png)
+<!---
+![2018 Turnout for Most USA Counties](plots/Choropleth/counties.png)-->
 
 Description to be added
   
 ![2018 State Turnout](plots/Choropleth/usa.png) 
 
-![2018 Georgia Turnout](plots/Choropleth/GA.png){height="500px" width="400px"}
+![2018 Georgia Turnout](plots/Choropleth/GA.png)
 
 
 
 ### Unsupervised Learning
 
+We performed clustering on the state-wise voter turnout dataset across two dimensions: first we merged together similar features using FeatureAgglomeration for dimensionality reduction; next, we clustered together similar states based on election policy using k-means.
+
 #### K-means
 
-We performed K-means clustering on the state election policy dataset and employed the elbow method to determine the ideal number of clusters:
+We employed the elbow method to determine the ideal number of clusters and then performed k-means on the state voter-turnout dataset:
 
 ![Elbow Method](plots/Kmeans/output_6_0.png)
 
@@ -42,43 +45,43 @@ So lasoo regression puts constraint on the coefficients (w). A penalty term (lam
 
 The following plots show linear regression results:
 
-![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
-![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
+<!---![LR](plots/Linear_Lasso_Ridge/output_11_1.png)
+![LR](plots/Linear_Lasso_Ridge/output_11_2.png)-->
 
 |LR training score | LR testing score:  |
 |------------------|--------------------|
 |      0.01477     |      0.00256       | 
 
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){{height="500px" width="400px"}
-![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){height="500px" width="400px"}
+<!---![LR](plots/Linear_Lasso_Ridge/test_actual.png){{height="500px" width="400px"}
+![LR](plots/Linear_Lasso_Ridge/test_pred_linear.png){height="500px" width="400px"}-->
 
 
 
 The following plots show lasso regression results:
 
-![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
-![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
+<!---![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
+![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)-->
 
 
-  |     Alpha     | Training score| Test score    | # Features used|
-  | ------------- |:-------------:|:-------------:| :-------------:| 
-  |     $0.1      |    $0.01419   |  $-0.000626   |        $5      |
-  |    $0.001     |    $0.01419   |  right-aligned|        $4      |
-  |    $0.0001    |     $0.01474  | right-aligned |        $4      |
+  |     Alpha     | Training score|  Test score    |# Features used|
+  |:-------------:|:-------------:|:--------------:|:-------------:| 
+  |     0.1       |    0.01419    |  -0.000626     |        5      |
+  |    0.001      |    0.01419    |   |        4      |
+  |    0.0001     |    0.01474    |    |        4      |
 
 
 
-![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="500px" width="400px"}
-![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="500px" width="400px"}
+<!---![LR](plots/Linear_Lasso_Ridge/test_actual.png){height="500px" width="400px"}
+![Lasso](plots/Linear_Lasso_Ridge/test_pred_lasso.png){height="500px" width="400px"}-->
 
-Feature Extraction for county level dataset reveals 
-![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)
+<!---Feature Extraction for county level dataset reveals 
+![LR](plots/Linear_Lasso_Ridge/Feature_Extraction.PNG)-->
 
-Correlation between voter turnout and the different features in the dataset indicates:
-![LR](plots/Linear_Lasso_Ridge/Correlation.PNG)
+<!---Correlation between voter turnout and the different features in the dataset indicates:
+![LR](plots/Linear_Lasso_Ridge/Correlation.PNG)-->
 
-We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negetively correlated with voter turnout per our trained model.
+<!---We have a positive correlation between the number of voters assigned to a polling location and the voter turnout. Other features, while significant, are negetively correlated with voter turnout per our trained model.-->
 
 ### Related Work
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
