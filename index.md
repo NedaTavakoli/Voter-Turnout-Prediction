@@ -36,7 +36,7 @@ We used the county election infrastructure dataset to perform linear and lasso r
 ![LR](plots/Linear_Lasso_Ridge/output_11_2.png)
 
 ![Lasso](plots/Linear_Lasso_Ridge/output_12_1.png)
-![Lasso](plots/Linear_Lasso_Ridge/output_12_2.png)
+![Lasso](plots/Linear_Lasso_Ridge/output_16_1.png)
 
 ### Related Work
 Keeter et al. predicted voter turnout based on interviews, voter history, and demographics using random forest and logistic regression [[]](). Challenor predicted voter turnout using labor force demographics in [[]](). Unlike their work, we propose to predict voter turnout based on local infrastructure, including but not limited to distance from polling stations, as examined by [[]]().
